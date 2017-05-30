@@ -1,0 +1,2 @@
+C:\Users\ecpl\Desktop\XamUBlobDemo\XamUBlobDemo\XamUBlobDemo.UWP\XamUBlobDemo.UWP.csproj;x86
+C:\Users\ecpl\Desktop\XamUBlobDemo\XamUBlobDemo\XamUBlobDemo\XamUBlobDemo.csproj;neutral

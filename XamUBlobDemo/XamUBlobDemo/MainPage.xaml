@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamUBlobDemo"
+             x:Class="XamUBlobDemo.MainPage">
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="add" Clicked="addimage"></ToolbarItem>
+        <ToolbarItem Text="Refresh" Clicked="refreshimage"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+    <StackLayout x:Name="rootlayout">
+        <ActivityIndicator x:Name="activity"></ActivityIndicator>
+        <Label x:Name="txtstatus" VerticalOptions="Center"></Label>
+    </StackLayout>
+    </StackLayout>-->
+
+    <StackLayout>
+        <Button Text="add" Clicked="addimage"></Button>
+        <Button Text="Refresh" Clicked="refreshimage"></Button>
+        <Button Text="CheckAdd" Clicked="refresh"></Button>
+        <StackLayout x:Name="rootlayout">
+                <ActivityIndicator x:Name="activity"></ActivityIndicator>
+                <Label x:Name="txtstatus" VerticalOptions="Center"></Label>
+        
+    </StackLayout>
+
+        <StackLayout>
+            <Button Clicked="selectgallery" Text="Gallery"></Button>        
+            
+        </StackLayout>
+        <StackLayout>
+            <Image x:Name="img" >
+               
+            </Image>
+        </StackLayout>
+        <StackLayout>
+            <Image Source="home.png" x:Name="sample">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                  Tapped="back"
+                         />
+            </Image.GestureRecognizers>
+            </Image>
+
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Choose Any One" Clicked="click"></Button>
+        </StackLayout>
+        </StackLayout>
+
+</ContentPage>
